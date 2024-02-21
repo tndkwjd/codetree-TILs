@@ -4,22 +4,10 @@ public class Main {
         int b = 6;
         int c = 7;
 
-        int tmp; 
-        int tmp2; 
-        int tmp3;
-
-        tmp = a;
-        tmp2 = b;
-        tmp3 = c;
-
-        // b -> a 값 
-        b = tmp; 
-        
-        // c -> b값 
-        c = tmp2; 
-
-        // a -> c값 
-        a = tmp3;
+        int tmp = a; 
+        a = c;
+        c = b;
+        b = tmp;
 
         System.out.println(a);
         System.out.println(b);
