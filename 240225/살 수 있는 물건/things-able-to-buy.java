@@ -4,6 +4,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        System.out.println(n < 10000 ? "book" : "no");
+        if(n >= 3000){
+            System.out.println("book");
+        }else if(n >= 1000){
+            System.out.println("mask");
+        }else{
+            System.out.println("no");
+        }
     }
 }
