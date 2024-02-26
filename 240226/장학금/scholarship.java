@@ -5,6 +5,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println((a >= 90) ? ((b >= 95) ? 10000 : 50000) : 0);
+        System.out.println((a >= 90) ? ((b >= 95 || b >= 90) ? 100000 : 50000) : 0);
     }
 }
