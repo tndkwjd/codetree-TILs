@@ -7,9 +7,6 @@ public class Main {
         int Bm = sc.nextInt();
         int Ae = sc.nextInt();
         int Be = sc.nextInt();
-        if(Am >= Bm && Be >= Ae)
-            System.out.println("A");
-        else
-            System.out.println("B");
+        System.out.println(((Am >= Bm) || Am == Bm) ? "A" : "B");
     }
 }
