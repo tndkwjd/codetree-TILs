@@ -5,10 +5,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         double a = sc.nextDouble();
         double b = sc.nextDouble();
-        double real_number = a + b;
-        if(real_number >= 1.0){
+        if(a >= 1.0 && b >= 1.0){
             System.out.println("High");
-        }else if(real_number >= 0.5){
+        }else if(a >= 0.5 && b >= 0.5){
             System.out.println("Middle");
         }else{
             System.out.println("Low");
