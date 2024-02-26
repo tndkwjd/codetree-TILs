@@ -5,6 +5,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println((a >= 90) ? ((b >= 95 || b >= 90) ? 100000 : 50000) : 0);
+            if(a >= 90 && b >= 95){
+                System.out.println(100000);
+            }else if(a >= 90 && b >= 90){
+                System.out.println(50000);
+            }else{
+                System.out.println(0);
+            }
     }
 }
