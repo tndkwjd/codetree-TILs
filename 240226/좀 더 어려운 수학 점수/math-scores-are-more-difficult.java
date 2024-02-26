@@ -9,8 +9,8 @@ public class Main {
         int bM = sc.nextInt();
 
         if(aM >= bM || (aM == bM && aE >= bE))
-            System.out.println("A");
-        else
             System.out.println("B");
+        else
+            System.out.println("A");
     }
 }
