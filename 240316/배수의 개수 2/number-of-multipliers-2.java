@@ -7,8 +7,10 @@ public class Main {
         int cnt = 0; 
         for(int i = a; i < 10; i++){
             int num = sc.nextInt();
-            if(num % 2 != 0){
-            cnt++;
+            if(num >= 1 && num <= 500){
+              if(num % 2 != 0){
+                 cnt++;
+              }
             }
         }
         System.out.println(cnt);
