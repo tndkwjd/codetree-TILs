@@ -6,7 +6,7 @@ public class Main {
         int a = sc.nextInt();
         int cnt = 0; 
         for(int i = a; i < 10; i++){
-            int num = a.nextInt();
+            int num = sc.nextInt();
             if(num % 2 != 0){
             cnt++;
             }
