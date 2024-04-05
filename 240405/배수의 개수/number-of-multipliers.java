@@ -3,8 +3,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = 0; 
-        int b = 0; 
+        int a = 0, b = 0; 
         for(int i = 1; i <= 10; i++){
             int cnt = sc.nextInt();
             if(cnt % 3 == 0){
